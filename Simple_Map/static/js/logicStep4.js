@@ -106,7 +106,11 @@ L.geoJSON(data, {
   // We create a popup for each circleMarker to display the magnitude and
   //  location of the earthquake after the marker has been created and styled.
   onEachFeature: function(feature, layer) {
-  layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
-}
-}).addTo(map);
+    layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
+    }
+  }).addTo(earthquakes);
+
+
+    // Then we add the earthquake layer to the map 
+    earthquakes.addTo(map);
   });
