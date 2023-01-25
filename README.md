@@ -9,4 +9,7 @@ The coordinates and magnitudes were retrieved using JavaScript, D3, as well as l
 Each earthquake contains a pop up marker that shows its magnitude and precise location, the color and size the circles of each earthquake have is related with the magnitude. 
 
 ## Main objective 
-Show the differences between the magnitudes of earthquakes all over the world for seven days with visualizations. 
+Show the differences between the magnitudes of earthquakes all over the world for seven days with visualizations, with the help of three different layers to visualize all the components:
+- Tectonic Plates
+- Earthquakes
+- Major Earthquakes.
